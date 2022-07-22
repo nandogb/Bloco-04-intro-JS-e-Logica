@@ -102,15 +102,17 @@ let soma = 0;
 // console.log(`The largest number in the array: ${maiorNumero}`);
 
 //? 06 - descubra valores ímpares do array, se não houver nenhum imprima o resultado "nenhum valor ímpar encontrado".let
-// let numerosImpares = []
+// let numerosImpares = [];
 
 // for (let index = 0; index < numbers.length; index++) {
-//   if (numbers[index] & 2 !== 0 ) {
-//     numerosImpares.push(numbers[index])
+//   if (numbers[index] & (2 !== 0)) {
+//     numerosImpares.push(numbers[index]);
 //   }
-
+//   if (numerosImpares === 0) {
+//     console.log("nenhum valor ímpar encontrado");
+//   }
 // }
-// console.log(numerosImpares)
+// console.log(numerosImpares);
 
 //? 07 - Utilizando for, descubra qual o menor valor contido no array e imprima-o;
 // let menorNumero = 100
@@ -129,7 +131,6 @@ let soma = 0;
 //   novoArray.push(index);
 // }
 // console.log(novoArray);
-
 
 // for (let index = 0; index < novoArray.length; index++) {
 //   let divisoes = novoArray[index] / 2;
